@@ -18,16 +18,16 @@ html, body{
 
 nav, section, footer, article, aside{
     border: 2px solid rgb(0, 67, 70);
-    margin: 0.25rem;
+    margin: 0.1rem;
     border-radius: 20px;
     padding: 1rem;
 }
 
 article, aside{
-    width: 80%;
+    width: 90%;
     display: inline-block;
-    height: 300px;
-    background-color: #90a4b8;
+    height: 125px;
+    background-color: rgb(163, 189, 196);
 }
 
 nav, section, footer{
