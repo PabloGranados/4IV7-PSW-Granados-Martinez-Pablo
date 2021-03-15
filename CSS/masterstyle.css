@@ -23,10 +23,17 @@ nav, section, footer, article, aside{
     padding: 1rem;
 }
 
-article, aside{
-    width: 90%;
+article{
+    width: 70%;
     display: inline-block;
     height: 125px;
+    background-color: rgb(163, 189, 196);
+}
+
+aside{
+    width: 50%;
+    display: inline-block;
+    height: 70px;
     background-color: rgb(163, 189, 196);
 }
 
@@ -34,6 +41,10 @@ nav, section, footer{
     background-color: rgb(163, 189, 196);
 }
 
-p, h3{
+p, h2{
     text-align:justify;
+}
+
+nav{
+    height: 70px;
 }
