@@ -26,14 +26,14 @@ nav, section, footer, article, aside{
 article{
     width: 70%;
     display: inline-block;
-    height: 125px;
+    height: 290px;
     background-color: rgb(163, 189, 196);
 }
 
 aside{
     width: 50%;
     display: inline-block;
-    height: 90px;
+    height: 125px;
     background-color: rgb(163, 189, 196);
 }
 
