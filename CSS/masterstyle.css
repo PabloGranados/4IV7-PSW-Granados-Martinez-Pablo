@@ -24,7 +24,7 @@ nav, section, footer, article, aside{
 }
 
 article{
-    width: 70%;
+    width: 90%;
     display: inline-block;
     height: 290px;
     background-color: rgb(163, 189, 196);
