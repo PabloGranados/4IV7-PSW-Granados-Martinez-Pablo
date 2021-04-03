@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/problemasjs.css">
+    <script src=../JS/ProblemasJSjs/problema5.js ></script>
+</head>
+<body>
+
+    <p>
+        Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes. 
+    </p>
+    <br>
+    <br>
+    <form name="formulario" method="get" action="problema5.html">
+        <div style="text-align:center;">
+            <table border="1"; style="margin: 0 auto;" >
+                <tr>
+                    <td class="td_up" >Introduce el total de hombres: </td>
+                    <td class="td_down" > <input type="text" name="totalh"
+                    onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Introduce el total de mujeres: </td>
+                    <td class="td_down" > <input type="text" name="totalm"
+                    onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="td_down"> <input type="button" value="Ver porcentaje"
+                        name="enviar" onclick="porcentaje()"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Porcentaje de hombres:</td>
+                    <td class="td_down"> <input type="text" name="porcentajeth"
+                        id="totalhf" readonly="readonly" 
+                        class="input_text"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Porcentaje de mujeres:</td>
+                    <td class="td_down"> <input type="text" name="porcentajetm"
+                        id="totalmf" readonly="readonly" 
+                        class="input_text"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="td_down"> <input type="button" name="borrard" 
+                        value="Borrar" onclick="borrar()"> </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <br>
+    <footer>
+        <h4><a href="menuproblemasjs.html">Regresar al Menú Principal </a></h4>
+    </footer>
+</body>
+</html>

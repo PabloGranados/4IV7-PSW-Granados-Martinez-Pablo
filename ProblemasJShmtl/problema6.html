@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema 1</title>
+    <title>Problema 6</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/problemasjs.css">
-    <script src=../JS/ProblemasJSjs/problema1.js ></script>
+    <script src=../JS/ProblemasJSjs/problema6.js ></script>
 </head>
 <body>
 
     <p>
-        Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto 
-        dinero ganara después de un mes si el banco paga a razón de 2% mensual.
+        Realizar un algoritmo que calcule la edad de una persona. 
     </p>
     <br>
     <br>
-    <form name="formulario" method="get" action="problema1.html">
+    <form name="formulario" method="get" action="problema6.html">
         <div style="text-align:center;">
             <table border="1"; style="margin: 0 auto;" >
                 <tr>
-                    <td class="td_up" >Introduce la cantidad a invertir : $</td>
-                    <td class="td_down" > <input type="text" name="cantidad"
+                    <td class="td_up" >Introduce el año actual: </td>
+                    <td class="td_down" > <input type="text" name="añoa"
+                    onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Introduce el año de nacimiento: </td>
+                    <td class="td_down" > <input type="text" name="añon"
                     onkeypress="return validarn(event)"> </td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="td_down"> <input type="button" value="Interes"
-                        name="enviar" onclick="interes()"> </td>
+                    <td class="td_down"> <input type="button" value="Calcular edad"
+                        name="enviar" onclick="cedad()"> </td>
                 </tr>
                 <tr>
-                    <td class="td_up" >Su saldo total con interés del 2% mensual es de:</td>
-                    <td class="td_down"> <input type="text" name="sueldoti"
-                        id="cantidadti" readonly="readonly" 
+                    <td class="td_up" >Edad aproximada: </td>
+                    <td class="td_down"> <input type="text" name="edad"
+                        id="añof" readonly="readonly" 
                         class="input_text"> </td>
                 </tr>
                 <tr>

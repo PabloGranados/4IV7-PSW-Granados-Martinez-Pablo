@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problema 1</title>
+    <title>Problema 9</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/problemasjs.css">
-    <script src=../JS/ProblemasJSjs/problema1.js ></script>
+    <script src=../JS/ProblemasJSjs/problema9.js ></script>
 </head>
 <body>
 
     <p>
-        Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto 
-        dinero ganara después de un mes si el banco paga a razón de 2% mensual.
+        Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, <br>
+        sabiendo que cuando las horas de trabajo exceden de 40, <br>
+        el resto se consideran horas extras y que estas se pagan al doble de una hora normal cuando no exceden de 8; <br>
+        si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple. 
     </p>
     <br>
     <br>
-    <form name="formulario" method="get" action="problema1.html">
+    <form name="formulario" method="get" action="problema9.html">
         <div style="text-align:center;">
             <table border="1"; style="margin: 0 auto;" >
                 <tr>
-                    <td class="td_up" >Introduce la cantidad a invertir : $</td>
-                    <td class="td_down" > <input type="text" name="cantidad"
+                    <td class="td_up" >Introduce el total de la compra: $</td>
+                    <td class="td_down" > <input type="text" name="tcsd"
                     onkeypress="return validarn(event)"> </td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="td_down"> <input type="button" value="Interes"
-                        name="enviar" onclick="interes()"> </td>
+                    <td class="td_down"> <input type="button" value="Aplicar descuento"
+                        name="enviar" onclick="descuento()"> </td>
                 </tr>
                 <tr>
-                    <td class="td_up" >Su saldo total con interés del 2% mensual es de:</td>
-                    <td class="td_down"> <input type="text" name="sueldoti"
-                        id="cantidadti" readonly="readonly" 
+                    <td class="td_up" >Costo de la compra con descuento aplicado:</td>
+                    <td class="td_down"> <input type="text" name="costocd"
+                        id="tcsdf" readonly="readonly" 
                         class="input_text"> </td>
                 </tr>
                 <tr>
