@@ -75,3 +75,5 @@ function problema2(){
     document.querySelector('#p2-output').textContent = 
     'Producto escalar minimo : '+p2_producto;
 }
+
+//problema 3
